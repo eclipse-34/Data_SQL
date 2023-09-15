@@ -8,28 +8,60 @@
 Structured Query Language<br>
 (관계형) 데이터베이스와 상호작용(질의)하기 위한 표준화된 프로그래밍 언어<br>
 종류가 다양하며 한 회사에서 여러 종류의 데이터베이스, SQL을 쓰는 경우가 많음<br>
->* 표준 SQL Standard SQL)<br>
->SQL 언어의 공식 표준을 정의한 것으로, 대부분의 DBMS에서 지원<br>
->ANSI 또는 ISO 표준 SQL이라고도 함<br>
->기본 쿼리, 데이터 정의, 데이터 조작 및 데이터 제어 작업을 수행하기 위한 기본 문법과 기능 제공<br>
->SELECT, INSERT, UPDATE, DELETE, CREATE TABLE, ALTER TABLE, DROP TABLE 등의 기본 SQL 문을 포함<br>
->* MySQL SQL<br>
->MySQL: 오픈 소스 관계형 데이터베이스 관리 시스템(RDBMS)<br>
->MySQL 고유의 확장된 SQL 문법, 기능, 함수 지원(저장 프로시저, 트리거, JSON 지원 등)<br>
->중소기업에서 많이 사용<br>
->* Oracle SQL<br>
->Oracle Database는 Oracle SQL이라고도 불리는 SQL 변형<br>
->데이터베이스 성능 최적화와 관련된 고급 기능<br>
->중소기업보다 대규모 기업 환경에서 주로 사용<br>
->* Microsoft SQL Server T-SQL<br>
->T-SQL(Transact-SQL)이라고 불리는 SQL 변형을 지원<br>
->Microsoft SQL Server 환경과 관련된 확장 기능(저장 프로시저, 트리거 등)<br>
->* PostgreSQL SQL<br>
->웹 애플리케이션 데이터 저장, 관리에 주로 사용<br>
->복잡한 데이터 모델링, 다양한 데이터 유형 지원<br>
->* SQLite SQL<br>
->SQLite: 경량 데이터베이스 엔진<br>
->모바일 애플리케이션 및 임베디드 시스템에서 많이 사용
+<details>
+<summary>SQL 종류</summary>
+<ul>
+  <li>
+    <strong>표준 SQL (Standard SQL)</strong>
+    <ul>
+      <li>SQL 언어의 공식 표준을 정의한 것으로, 대부분의 DBMS에서 지원</li>
+      <li>ANSI 또는 ISO 표준 SQL이라고도 함</li>
+      <li>기본 쿼리, 데이터 정의, 데이터 조작 및 데이터 제어 작업을 수행하기 위한 기본 문법과 기능 제공</li>
+      <li> SELECT, INSERT, UPDATE, DELETE, CREATE TABLE, ALTER TABLE, DROP TABLE 등의 기본 SQL 문을 포함</li>
+    </ul>
+  </li>
+  <li>
+    <strong>MySQL SQL</strong>
+    <ul>
+      <li>MySQL: 오픈 소스 관계형 데이터베이스 관리 시스템(RDBMS)</li>
+      <li>MySQL 고유의 확장된 SQL 문법, 기능, 함수 지원(저장 프로시저, 트리거, JSON 지원 등)</li>
+      <li>중소기업에서 많이 사용</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Oracle SQL</strong>
+    <ul>
+      <li>Oracle Database에서 사용하는 변형된 SQL</li>
+      <li>데이터베이스 성능 최적화와 관련된 고급 기능</li>
+      <li>중소기업보다 대규모 기업 및 조직에서 주로 사용</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Microsoft SQL Server T-SQL</strong>
+    <ul>
+      <li>Microsoft SQL Server: Microsoft의 관계형 데이터베이스 관리 시스템(RDBMS)</li>
+      <li>T-SQL(Transact-SQL)이라고 불리는 SQL 변형을 지원</li>
+      <li>Microsoft SQL Server 환경과 관련된 확장 기능(저장 프로시저, 트리거 등)</li>
+    </ul>
+  </li>
+  <li>
+    <strong>PostgreSQL SQL</strong>
+    <ul>
+      <li>PostgreSQL: 데이터베이스 성능 및 확장성을 고려하여 설계된 오픈 소스 RDBMS</li>
+      <li>웹 애플리케이션 데이터 저장, 관리에 주로 사용</li>
+      <li>복잡한 데이터 모델링, 다양한 데이터 유형 지원</li>
+    </ul>
+  </li>
+  <li>
+    <strong>SQLite SQL</strong>
+    <ul>
+      <li>SQLite: 경량 데이터베이스 엔진</li>
+      <li>모바일 애플리케이션 및 임베디드 시스템에서 많이 사용</li>
+      <li>SQLite는 파일 기반 데이터베이스로 서버가 필요하지 않으며 데이터를 로컬 디스크 파일에 저장</li>
+    </ul>
+  </li>
+</ul>
+</details>
 
 ### 데이터베이스(Database):
 구조화된 데이터의 집합을 저장하고 관리하는 시스템<br>
@@ -39,6 +71,34 @@ Structured Query Language<br>
 >다른 테이블과 관계를 맺고 모여있는 집합체<br>
 >관계형 데이터베이스에서 여러 테이블 간의 관계를 정의<br>
 >주로 1:1, 1:n, n:n 관계
+<details>
+<summary>관계형/비관계형 데이터베이스 종류</summary>
+  <li>
+    <strong>관계형 데이터베이스</strong>
+    <ul>
+      <li>MySQL</li>
+      <li>PostgreSQL</li>
+      <li>Microsoft SQL Server(MSSQL)</li>
+      <li>Oracle Database</li>
+      <li>SQLite</li>
+    </ul>
+    <strong>비관계형 데이터베이스</strong>
+    <ul>
+      <li>MongoDB</li>
+      <li>Cassandra</li>
+      <li>Redis</li>
+      <li>Couchbase</li>
+      <li>Amazon DynamoDB</li>
+    </ul>
+    <strong>비관계형 데이터베이스를 사용하는 이유</strong>
+    <ul>
+      <li>다양한 데이터 유형과 구조를 처리 가능</li>
+      <li>대규모 데이터를 효율적으로 저장하고 검색 가능</li>
+      <li>클라우드 환경과 간편하게 통합됨</li>
+      <li>스키마가 유연하며, 데이터 모델을 동적으로 조정 가능-> 빠르게 변경에 대응 가능</li>
+    </ul>
+  </li>
+</details>
 
 ### 테이블(Table):
 데이터를 저장하는 데 사용되는 구조테이블<br>
