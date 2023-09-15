@@ -1,17 +1,23 @@
 # Data_SQL
-## :pencil2: 기초 데이터 분석, 엔지니어링을 위한 SQL 정리
+## :pencil2: 데이터 분석, 엔지니어링을 위한 SQL 정리
 [0. SQL Workbench](https://github.com/eclipse-34/Data_SQL/blob/main/0_SQL_Workbench.sql)
 - MySQL 작업 환경 -> 데이터베이스 생성, 사용, 삭제
 
 [1-1. SQL_명령어 - 데이터 정의어(DDL)](https://github.com/eclipse-34/Data_SQL/blob/main/1_1_SQL_%EB%AA%85%EB%A0%B9%EC%96%B4_%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%95%EC%9D%98%EC%96%B4(DDL).sql)
-- 데이터 정의어(Data Definition Language)
-- CREATE, ALTER, DROP
+- 데이터 정의어(Data Definition Language) - CREATE, ALTER, DROP
 - 테이블 생성, 열 추가, 열 데이터 타입 변경, 테이블명 변경, 테이블 삭제
 
-[1-2. SQL_명령어 - 데이터 조작어(DDL)](https://github.com/eclipse-34/Data_SQL/blob/main/1_2_%EB%AA%85%EB%A0%B9%EC%96%B4_%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A1%B0%EC%9E%91%EC%96%B4(DML).sql))
-- 데이터 조작어(Data Manipulation language)
-- SELECT, INSERT, UPDATE, DELETE
+[1-2. SQL_명령어 - 데이터 조작어(DDL)](https://github.com/eclipse-34/Data_SQL/blob/main/1_2_%EB%AA%85%EB%A0%B9%EC%96%B4_%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A1%B0%EC%9E%91%EC%96%B4(DML).sql)
+- 데이터 조작어(Data Manipulation language) - SELECT, INSERT, UPDATE, DELETE
 - 데이터 삽입, 조회, 수정, 삭제 ->  제약조건 위반, 조건(WHERE)
+
+[1-3. SQL_명령어 - 데이터 제어어(DCL)](https://github.com/eclipse-34/Data_SQL/blob/main/1_3_%EB%AA%85%EB%A0%B9%EC%96%B4_%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%9C%EC%96%B4%EC%96%B4(DCL).sql)
+- 데이터 제어어(Data Control language) - GRANT, REVOKE
+- 사용자 추가/삭제, 권한 부여/박탈 
+
+[1-4. SQL_명령어 - 트랜잭션 제어어(TCL)](https://github.com/eclipse-34/Data_SQL/blob/main/1_4_%EB%AA%85%EB%A0%B9%EC%96%B4_%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20%EC%A0%9C%EC%96%B4%EC%96%B4(TCL).sql)
+- 트랜잭션 제어어(Transaction Control Language) - BEGIN, COMMIT, ROLLBACK
+- 트랜잭션 실행, 취소, 임시저장
 
 ## :pencil2: 데이터베이스 기본 개념
 ### SQL
@@ -136,6 +142,7 @@ WHERE 절을 사용하여 조건을 지정
 
 ### 트랜잭션(Transaction):
 데이터베이스에서 하나 이상의 작업을 묶어서 그룹화<br>
+분할할 수 없는 최소 단위<br>
 성공 또는 실패에 따라 모든 작업을 롤백 또는 커밋할 수 있는 논리적 작업 단위 -> `all or nothing`<br>
 원자성 (Atomicity), 일관성 (Consistency), 고립성 (Isolation),지속성 (Durability)을 가짐
 >* 원자성(Atomic): 트랜잭션 내의 모든 작업이 완전히 수행되거나 전혀 수행되지 않음
@@ -147,4 +154,4 @@ WHERE 절을 사용하여 조건을 지정
 인덱스는 데이터베이스 성능을 향상시키기 위해 사용되는 구조<br>
 특정 열에 대한 빠른 데이터 검색
 
-
+#### [네이버 부스트 코스 <기초 데이터 분석을 위한 핵심 SQL> 강의 내용 포함]
