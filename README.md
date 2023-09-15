@@ -8,6 +8,11 @@
 - CREATE, ALTER, DROP
 - 테이블 생성, 열 추가, 열 데이터 타입 변경, 테이블명 변경, 테이블 삭제
 
+[1-2. SQL_명령어 - 데이터 조작어(DDL)](https://github.com/eclipse-34/Data_SQL/blob/main/1_2_%EB%AA%85%EB%A0%B9%EC%96%B4_%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A1%B0%EC%9E%91%EC%96%B4(DML).sql))
+- 데이터 조작어(Data Manipulation language)
+- SELECT, INSERT, UPDATE, DELETE
+- 데이터 삽입, 조회, 수정, 삭제 ->  제약조건 위반, 조건(WHERE)
+
 ## :pencil2: 데이터베이스 기본 개념
 ### SQL
 Structured Query Language<br>
