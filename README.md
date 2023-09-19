@@ -6,7 +6,7 @@
 
 - MySQL 작업 환경 -> 데이터베이스 생성, 사용, 삭제
 
-[1-1. SQL\_명령어 - 데이터 정의어(DDL)](<https://github.com/eclipse-34/Data_SQL/blob/main/1_1_SQL_%EB%AA%85%EB%A0%B9%EC%96%B4_%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%95%EC%9D%98%EC%96%B4(DDL).sql>)
+[1-1. SQL\_명령어 - 데이터 정의어(DDL)](<https://github.com/eclipse-34/Data_SQL/blob/main/1_1_%EB%AA%85%EB%A0%B9%EC%96%B4_%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%95%EC%9D%98%EC%96%B4(DDL).sql>)
 
 - 데이터 정의어(Data Definition Language) - CREATE, ALTER, DROP
 - 테이블 생성, 열 추가, 열 데이터 타입 변경, 테이블명 변경, 테이블 삭제
@@ -26,15 +26,15 @@
 - 트랜잭션 제어어(Transaction Control Language) - BEGIN, COMMIT, ROLLBACK
 - 트랜잭션 실행, 취소, 임시저장
 
-[2-1. SQL\_문법 - 데이터 조회(SELECT)]()
+[2-1. SQL\_문법 - 데이터 조회(SELECT)](<https://github.com/eclipse-34/Data_SQL/blob/main/2_1_%EB%AC%B8%EB%B2%95_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%A1%B0%ED%9A%8C(SELECT).sql>)
 
 - FROM, WHERE, GROUP BY, HAVING, SELECT, ORDER BY
 
-[2-2. SQL\_문법 - 데이터 결합(JOIN) ]()
+[2-2. SQL\_문법 - 데이터 결합(JOIN) ](<https://github.com/eclipse-34/Data_SQL/blob/main/2_2_%EB%AC%B8%EB%B2%95_%ED%85%8C%EC%9D%B4%EB%B8%94%EA%B2%B0%ED%95%A9(JOIN).sql>)
 
 - Inner JOIN, LEFT JOIN, RIGHT JOIN
 
-[2-3. SQL\_문법 - 서브쿼리(Sub Query)]()
+[2-3. SQL\_문법 - 서브쿼리(Sub Query)](https://github.com/eclipse-34/Data_SQL/blob/main/2_3_%EB%AC%B8%EB%B2%95_%EC%84%9C%EB%B8%8C%EC%BF%BC%EB%A6%AC.sql)
 
 - SELECT절 서브쿼리, FROM절 서브쿼리, WHERE절 서브쿼리
 
