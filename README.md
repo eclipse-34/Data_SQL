@@ -38,6 +38,22 @@
 
 - SELECT절 서브쿼리, FROM절 서브쿼리, WHERE절 서브쿼리
 
+[3-1. SQL\_활용 - 연산자](https://github.com/eclipse-34/Data_SQL/blob/main/3_1_%ED%99%9C%EC%9A%A9_%EC%97%B0%EC%82%B0%EC%9E%90.sql)
+
+- 비교 연산자(>,>=,<,<=), 논리 연산자(AND, OR, NOT), 특수 연산자(BETWEEN, IN, LIKE, IS NULL)
+- 산술 연산자(+, -, \*, /), 집합 연산자(UNION, UNION ALL)
+
+[3-2. SQL\_활용 - 함수](https://github.com/eclipse-34/Data_SQL/blob/main/3_2_%ED%99%9C%EC%9A%A9_%ED%95%A8%EC%88%98.sql)
+
+- 단일행 함수 - 숫자형, 문자형, 날짜형, 형 변환, 일반
+- 복수행 함수 - 집계형, 그룹형
+- 윈도우 함수 - 순위, 집계(누적)
+
+[3-2. SQL\_활용 - View와 Procedure](https://github.com/eclipse-34/Data_SQL/blob/main/3_3_%ED%99%9C%EC%9A%A9_View_Procedure.sql)
+
+- View : 사용자가 정의한 가상테이블
+- Procedure : 사용자가 정의한 작업
+
 ## :pencil2: 데이터베이스 기본 개념
 
 ### SQL
