@@ -40,6 +40,13 @@ SELECT LENGTH('AB');         # 2
 SELECT YEAR('2022-12-31');   # 2022
 SELECT MONTH('2022-12-31');  # 12
 SELECT DAY('2022-12-31');    # 31
+# DATE_FORMAT(DATE_EXAMPLE,'%Y-%m-%d')
+대문자 'Y': 연도
+소문자 'y': 연도를 나타내지만, 연도를 나타내는 숫자가 2자리인 경우에는 끝의 2자리만 표시
+대문자 'M': 월
+소문자 'm': 분
+대문자 'D': 일 (th)
+소문자 'd': 일을 나타내지만, 일을 나타내는 숫자가 2자리인 경우에는 끝의 2자리만 표시
 
 # DATE_ADD(날짜, INTERVAL) : INTERVAL만큼 더한 값 반환
 SELECT DATE_ADD('2022-12-31', INTERVAL -1 MONTH);  # 2022-11-30
