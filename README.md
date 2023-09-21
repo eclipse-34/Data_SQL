@@ -49,7 +49,7 @@
 - 복수행 함수 - 집계형, 그룹형
 - 윈도우 함수 - 순위, 집계(누적)
 
-[3-2. SQL\_활용 - View와 Procedure](https://github.com/eclipse-34/Data_SQL/blob/main/3_3_%ED%99%9C%EC%9A%A9_View_Procedure.sql)
+[3-3. SQL\_활용 - View와 Procedure](https://github.com/eclipse-34/Data_SQL/blob/main/3_3_%ED%99%9C%EC%9A%A9_View_Procedure.sql)
 
 - View : 사용자가 정의한 가상테이블
 - Procedure : 사용자가 정의한 작업
