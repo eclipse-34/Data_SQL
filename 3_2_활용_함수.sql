@@ -34,6 +34,10 @@ SELECT RIGHT('AB', 1);       # 'B'
 # LENGTH(문자) : 문자수(문자열 길이) 반환
 SELECT LENGTH('AB');         # 2
 
+# CONCAT(a, b) : 결과값에 원하는 문자열 추가
+SELECT  CONCAT(성, ' ', 이름) AS 전체_이름
+SELECT  성 + ' ' + 이름 AS 전체_이름
+
 # -날짜형 함수-
 
 # YEAR, MONTH, DAY : 연, 월, 일 반환
@@ -66,8 +70,9 @@ SELECT CAST('2022-12-31 12:00:00' AS DATE);    # 2022-12-31 (시간 삭제)
 # -일반 함수-
 
 # IFNULL(A, B) : A가 NULL이면 B를 반환, 아니면 A 반환
-SELECT IFNULL(NULL, 0);                 # 0 출력
-SELECT IFNULL('NULL이 아님', 0);         # NULL이 아님 출력
+SELECT  IFNULL(column_name, 'Default_Value') AS result_column
+SELECT  IFNULL(NULL, 0);                 # 0 출력
+SELECT  IFNULL('NULL이 아님', 0);         # NULL이 아님 출력
 
 # CASE WHEN : 여러 조건별로 반환값 지정
 CASE WHEN [조건1] THEN [반환1]
